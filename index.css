@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.game {
+  background: linear-gradient(to bottom right, green, green);
+  border-collapse: collapse;
+  width: 32vw;
+  height: 32vw;
+  margin: auto;
+  margin-top: 5rem;
+  border: 5px solid black;
+}
+
+.game > tr {
+  height: 33%;
+  width: 100%;
+}
+
+.game > tr > td {
+  background: linear-gradient(
+    to bottom right,
+    rgb(85, 185, 85),
+    rgb(8, 117, 8)
+  );
+  width: 33%;
+  font-size: 2rem;
+  text-align: center;
+  border: 5px solid black;
+}
+.textContainer {
+  background: linear-gradient(
+    to bottom,
+    rgb(9, 227, 71),
+    rgb(4, 140, 42),
+    rgb(1, 74, 1)
+  );
+  width: 32vw;
+  margin: auto;
+  margin-top: -5px;
+  border: 5px solid black;
+  text-align: center;
+}
+.btn {
+  width: 5rem;
+  height: 2rem;
+  margin: 5px;
+  padding: 2px 5px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+  border: transparent;
+  box-shadow: inset 0px 0px 4px 1px rgb(15, 166, 7);
+}
+.decision {
+  font-size: 30px;
+  background: -webkit-linear-gradient(red, blue, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: whitesmoke;
+}
